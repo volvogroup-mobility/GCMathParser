@@ -11,6 +11,6 @@ s.author = { "Taras Kalapun" => "t.kalapun@gmail.com" }
 s.homepage = "https://github.com/xslim/GCMathParser"
 s.source = { :git => "https://github.com/volvogroup-mobility/GCMathParser.git",
 :tag => "#{s.version}" }
+s.compiler_flag = '-fno-objc-arc'
 s.source_files = "GCExpressionParser/FrameworkClasses/*.{h,m,mm}"
-
 end
